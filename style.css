@@ -14,12 +14,13 @@
     align-items:center;
     justify-content:center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 15px;
-
 }
 .conteudo-topo{
     width:1024px;
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px;
 }
 .conteudo-topo a{
     text-decoration:none;
@@ -109,6 +110,8 @@ span{
     display:flex;
     justify-content:center;
     align-items: flex-start;
+    flex-wrap:wrap;
+    gap:10px;
 }
 .container-fotos div{
     width: 100%;
@@ -116,7 +119,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 .container-fotos .secao-coluna{
     width: 300px;
@@ -152,6 +155,8 @@ span{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
     border-bottom: 1px solid #33333344;
 }
 
